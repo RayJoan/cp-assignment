@@ -1,0 +1,16 @@
+/* to calculate the Simple Interest*/
+
+#include<stdio.h>
+
+void main()
+	{
+		float SI,principle,r,t;
+
+		printf("\n Enter the Principle amount, rate of interest , and time period in years:" );
+		scanf("%f%f%f", &principle, &r, &t);
+
+		SI=(principle*r*t)/100;
+
+		printf("\n The calculated Simple Interest for the entered details = %f", SI);
+	}
+
