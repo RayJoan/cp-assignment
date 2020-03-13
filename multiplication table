@@ -13,7 +13,7 @@ void main()
 
 		while(i<=10)
 			{
-        p=num*i;
+                                p=num*i;
 				printf("\n %d x %d = %d ",num,i,p);
 				i++;
 			}
